@@ -55,7 +55,7 @@ namespace sampleapp
                 script = Regex.Replace(script, "([/*][*]).*([*][/])", "");
                 script = Regex.Replace(script, "\\s{2,}", " ");                
 
-                tmpConn.ConnectionString = "Server=LAPTOP-PRVUC1QQ\\SQLEXPRESS;" + "Database=" + dbName + "; Trusted_Connection=True;";
+                tmpConn.ConnectionString = "Server=LAPTOP-Pxxxxxxx\\SQLEXPRESS;" + "Database=" + dbName + "; Trusted_Connection=True;";
                 
 
                 using (SqlConnection connection = new SqlConnection(tmpConn.ConnectionString))
