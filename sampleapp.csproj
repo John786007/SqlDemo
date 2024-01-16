@@ -10,7 +10,7 @@
     <PackageReference Include="Microsoft.SqlServer.Management.Sdk.Sfc.dll" Version="1.0.1" />
     <PackageReference Include="Microsoft.SqlServer.Smo.dll" Version="1.0.1" />
     <PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" Version="160.2004021.0" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
 </Project>
